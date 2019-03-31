@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gupao.mapper.UserMapper">
+
+    <select id="selectUserById" resultType="com.gupao.domain.UserVO">
+      SELECT
+        ID AS id,
+        USERNAME AS username,
+        PASSWORD AS password,
+        AGE AS age
+      FROM
+        USER_T
+      WHERE
+        ID = #{id, jdbcType=NUMERIC}
+    </select>
+
+  <select id="selectUserByName" resultType="com.gupao.domain.ElementVO">
+    SELECT
+    ID AS id,
+    USERNAME AS username,
+    PASSWORD AS password,
+    AGE AS age
+    FROM
+    USER_T
+    WHERE
+    ID = #{id, jdbcType=NUMERIC}
+  </select>
+
+</mapper>

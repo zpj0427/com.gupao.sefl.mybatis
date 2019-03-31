@@ -1,0 +1,12 @@
+23:03:31,480 DEBUG [org.apache.ibatis.logging.LogFactory] Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+23:03:31,787 DEBUG [org.apache.ibatis.logging.LogFactory] Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+23:03:31,818 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+23:03:31,818 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+23:03:31,818 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+23:03:31,819 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+23:03:31,979 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Opening JDBC Connection
+23:03:32,355 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Created connection 1926764753.
+23:03:32,356 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@72d818d1]
+23:03:32,360 DEBUG [com.gupao.mybatis.mapper.UserMapper.selectUserById] ==>  Preparing: SELECT ID AS id, USERNAME AS username, PASSWORD AS password, AGE AS age FROM USER_T WHERE ID = ?
+23:03:32,417 DEBUG [com.gupao.mybatis.mapper.UserMapper.selectUserById] ==> Parameters: 1(Integer)
+23:03:32,449 DEBUG [com.gupao.mybatis.mapper.UserMapper.selectUserById] <==      Total: 1
